@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">	
+
+<suite thread-count="1" verbose="1" name="Passport Suite" annotations="JDK" >       
+   
+  <test name="Ming">
+     <classes>
+       <class name="challenge.ChallengeTests">
+       	<methods>
+	   		<include name="NewParking_01"></include>
+	   		<include name="ExtendParking_02"></include>
+	   		<include name="StopParking_03"></include>
+	   		<exclude name=""></exclude>
+	   		</methods>
+	   </class>
+     </classes>
+   </test>
+</suite>

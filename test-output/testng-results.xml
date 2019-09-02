@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Passport Suite" duration-ms="90984" started-at="2019-08-04T15:36:11Z" finished-at="2019-08-04T15:37:42Z">
+    <groups>
+    </groups>
+    <test name="Ming" duration-ms="90984" started-at="2019-08-04T15:36:11Z" finished-at="2019-08-04T15:37:42Z">
+      <class name="challenge.ChallengeTests">
+        <test-method status="PASS" signature="NewParking_01()[pri:0, instance:challenge.ChallengeTests@4b9e13df]" name="NewParking_01" duration-ms="37529" started-at="2019-08-04T15:36:11Z" finished-at="2019-08-04T15:36:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NewParking_01 -->
+        <test-method status="PASS" signature="ExtendParking_02()[pri:0, instance:challenge.ChallengeTests@4b9e13df]" name="ExtendParking_02" duration-ms="28280" started-at="2019-08-04T15:36:48Z" finished-at="2019-08-04T15:37:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExtendParking_02 -->
+        <test-method status="PASS" signature="StopParking_03()[pri:0, instance:challenge.ChallengeTests@4b9e13df]" name="StopParking_03" duration-ms="25129" started-at="2019-08-04T15:37:17Z" finished-at="2019-08-04T15:37:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StopParking_03 -->
+      </class> <!-- challenge.ChallengeTests -->
+    </test> <!-- Ming -->
+  </suite> <!-- Passport Suite -->
+</testng-results>
